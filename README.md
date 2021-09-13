@@ -12,8 +12,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/animated-launch-coundown-timer-FtMs70GuN)
-- Live Site URL: [Add live site URL here](https://saidkhan19.github.io/saidkhan19-countDown/)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/animated-launch-coundown-timer-FtMs70GuN)
+- Live Site URL: [live site URL](https://saidkhan19.github.io/saidkhan19-countDown/)
 
 ## My process
 
