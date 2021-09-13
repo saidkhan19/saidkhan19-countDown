@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/animated-launch-coundown-timer-FtMs70GuN)
 - Live Site URL: [Add live site URL here](https://saidkhan19.github.io/saidkhan19-countDown/)
 
 ## My process
