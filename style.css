@@ -20,17 +20,17 @@ html, body {
 }
 
 body {
-    background: url("./images/pattern-hills.svg") bottom no-repeat,
-                url("./images/bg-stars.svg") no-repeat;
-
-    background-color: var(--very-dark-blue);
+    background:
+                url("./images/pattern-hills.svg") bottom no-repeat,
+                url("./images/bg-stars.svg") no-repeat,
+                linear-gradient(to bottom, var(--very-dark-blue) 50%, #301934 90%) no-repeat;
 
     font-family: 'Red Hat Text', sans-serif;
 }
 
 @media (max-width: 720px) {
     body {
-        background-size: auto 150px, cover;
+        background-size: auto 150px, cover, auto;
         background-position-x: 80%, left;
     }
 }
@@ -60,12 +60,12 @@ body {
 .container > h1 {
     font-size: 1.4rem;
     color: white;
-    margin-top: 5.5rem;
+    margin-top: 8.5rem;
 }
 
 
 #timer {
-    margin-top: 3rem;
+    margin-top: 4.5rem;
     display: grid;
     grid-template-columns: repeat(4, minmax(60px, 1fr));
     gap: 1rem;
@@ -74,7 +74,6 @@ body {
 .value {
     font-size: 3.5rem;
     margin: 15px;
-    transition: 2s;
 }
 
 .flip-card {
@@ -177,12 +176,15 @@ body {
 
     display: flex;
     justify-content:space-evenly;
+
+    -webkit-tap-highlight-color: transparent;
 }
 
 svg {
     fill: #8385A9; 
 }
-svg:hover {
+svg:hover,
+svg:focus {
     fill: var(--soft-red);
 }
 
@@ -192,6 +194,12 @@ svg:hover {
     }
     .value {
         font-size: 2.2rem;
+    }
+    .container > h1 {
+        margin-top: 5rem;
+    }
+    #timer {
+        margin-top: 4rem;
     }
 }
 @media (max-width: 450px) {
